@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vaccine Avaibility</title>
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <h3>Covid Vaccination Details</h3>
+    <div class="mb-3">
+      <form action="get" style="margin: 4rem">
+        <input
+          style="width: 50%"
+          class="form-control my-3"
+          type="number"
+          placeholder="Pincode"
+          id="pincode"
+          required
+        />
+        <input
+          style="width: 50%"
+          class="form-control my-3"
+          type="date"
+          id="date"
+          required
+        />
+        <button type="button" class="btn btn-primary my-3" id="show">
+          Get Details
+        </button>
+      </form>
+    </div>
+    <div class="messageBox">
+      
+      <span id="message"></span>
+    </div>
+    <table id="res">
+      <tr>
+        <th>Center Id</th>
+        <th>Name</th>
+        <th>address</th>
+        <th>state name</th>
+        <th>district name</th>
+        <th>from</th>
+        <th>to</th>
+        <th>fees</th>
+        <th>vaccine Avaibility</th>
+        <th>Vaccine</th>
+        <th>Slotes</th>
+      </tr>
+      
+    </table>
+  </body>
+  <script src="js/index.js"></script>
+</html>

@@ -1,0 +1,43 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+body {
+  font-weight: bolder;
+  font-size: large;
+}
+h3 {
+  padding: 10px 10px;
+  text-align: center;
+  background-color: rgb(185, 241, 241);
+}
+table {
+  font-family: arial, sans-serif;
+  width: 100%;
+}
+
+table td {
+  border: 2px solid #32a6e9;
+  text-align: left;
+  padding: 10px;
+}
+table th {
+  border: 2px solid #32a6e9;
+  text-align: left;
+  padding: 10px;
+}
+table tr:nth-child(even) {
+  background-color: #52ee93;
+}
+.messageBox {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px;
+  transition: all 0.5s ease-in;
+}
+#message {
+  color: red;
+  font-size: larger;
+  transition: all 0.5s ease-in;
+}
